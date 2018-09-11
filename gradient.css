@@ -1,0 +1,22 @@
+background: linear-gradient(270deg, #1cad9f, #1cc79b, #bb1cc7, #f66767, #67f6f5);
+background-size: 1000% 1000%;
+
+-webkit-animation: coolgradient 0s ease infinite;
+-moz-animation: coolgradient 0s ease infinite;
+animation: coolgradient 0s ease infinite;
+
+@-webkit-keyframes coolgradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes coolgradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes coolgradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
